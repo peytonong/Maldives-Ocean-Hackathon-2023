@@ -1,0 +1,43 @@
+/* KnowledgeHub.css */
+
+/* Add general padding to the entire content */
+ion-content {
+    padding: 20px;
+  }
+  
+  /* Heading and paragraphs section */
+  .heading-section {
+    margin-bottom: 10px;
+  }
+  
+  /* Card containers section */
+  .knowledge-cards-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Card styling */
+  .knowledge-card {
+    overflow: hidden;
+    transition: height 0.6s;
+    height: 60px; /* Set a default height, adjust as needed */
+    margin-bottom: 10px; /* Add margin between cards */
+  }
+  
+  .knowledge-card .card-content {
+    display: none;
+    padding: 10px; /* Add padding to the content */
+  }
+  
+  .knowledge-card.expanded {
+    height: auto; /* Automatically adjust height based on content */
+  }
+  
+  .knowledge-card.expanded .card-content {
+    display: block;
+  }
+  
+  /* Overview section */
+  .overview-section {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,36 @@
+/* About.css */
+
+/* Align the team section items */
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+/* Style for the objective section */
+.objective-section {
+  margin-bottom: 20px;
+}
+
+/* Style for the team member card */
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style for the card image */
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Style for the card content */
+ion-card-content ion-text {
+  color: #555; /* Use a dark gray color for the content text */
+}

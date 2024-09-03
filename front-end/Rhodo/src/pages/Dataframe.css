@@ -1,0 +1,21 @@
+.data-frame {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .data-frame-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,54 @@
+/* Collaborate.css */
+.collaborate-header{
+    text-align: center;
+}
+
+.company-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .company-logos img {
+    width: 170px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    padding: 10px;
+    /* Add padding to the bottom for better visual separation */
+    margin-bottom: 10px;
+  }
+  
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out; /* Adjust timing function as needed */
+  }
+  
+  
+  .up {
+    transform: rotate(-180deg);
+  }
+  
+  .down {
+    transform: rotate(0);
+  }
+
+  ion-toolbar.large-title-fix {
+    padding-top: env(safe-area-inset-top);
+  }

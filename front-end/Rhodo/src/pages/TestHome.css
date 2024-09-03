@@ -1,0 +1,129 @@
+
+
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-side {
+    flex: 1;
+    background-color: #f0f0f0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-section {
+    flex: 0.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-section {
+    flex: 1;
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-section {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section {
+    width: 300px; /* Set a fixed width for the sections */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center-align text within the sections */
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .section ion-button {
+    margin-top: 10px;
+  }
+
+  .rightWord{
+    width: 300px;
+    height: 200px;
+  }
+  
+  
+  .logo {
+    width: 80px; /* Adjust the width of your logo as needed */
+    height: 80px; /* Adjust the height of your logo as needed */
+  }
+  
+  .image {
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .register-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register-link-text {
+    color: blue; /* Adjust the color as needed */
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .register-link-text:hover {
+    text-decoration: none;
+  }
+
+
+
+  .observation-container {
+    padding: 20px;
+    max-width: 600px; /* Adjust the max-width based on your design */
+    margin: 0 auto;
+  }
+  
+  .native-input.sc-ion-input-md {
+    margin-top: 10px; /* Adjust the margin-top */
+  }
+  
+  .pictureInput {
+    margin-top: 30px; /* Adjust the margin-top */
+  }
+  
+  /* Add the following media query for better responsiveness */
+  @media screen and (max-width: 600px) {
+    .observation-container {
+      padding: 10px;
+    }
+
+    .pictureInput {
+      margin-top: 35px;
+    }
+  }
